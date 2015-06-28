@@ -1,0 +1,7 @@
+import urllib
+import urllib.request
+
+#Read website
+website = urllib.request.urlopen("http://google.com")
+data = website.read()
+print(data)
