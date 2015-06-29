@@ -2,10 +2,12 @@ import urllib
 import re
 
 # url list
-urls = ["https://www.nordnet.no/mux/web/marknaden/kurslista/aktier.html?marknad=Norge&lista=1_1&large=on&mid=on&small=on&sektor=0&subtyp=key_ratios&sortera=pe&sorteringsordning=stigande"]
+urls = ["https://www.google.com","https://www.yahoo.com"]
 
 #regex codeline
 regex = r'<title>(.+?)</title>'
+
+#code
 pattern = re.compile(regex)
 
 #write list to file
