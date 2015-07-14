@@ -20,6 +20,12 @@ print data_list[:5]
 print '-'*60
 # remove list items from index 3 to 5 (inclusive)
 del data_list[3:5+1]
+
+# remove everything before 10
+#del data_list[:10]
+#Remove everything after 72
+#del data_list[72:]
+
 # test first 5 list items ...
 print data_list[:5]
 # write the changed data (list) to a file
